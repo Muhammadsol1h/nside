@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Gothic&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: url(../img/wrapper/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header start */
+
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header-container {
+    max-width: 1404px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1404px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-logo {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    list-style: none;
+}
+
+.nav-link {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+/* header end */
+
+/* hero start */
+.hero {
+    padding-top: 50px;
+    padding-bottom: 104px;
+}
+
+.hero-text {
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 4px;
+    color: white;
+    margin-bottom: 54px;
+}
+
+.hero-title {
+    font-family: Inter, sans-serif;
+    font-size: 78px;
+    font-weight: 600;
+    line-height: 93.6px;
+    letter-spacing: -3.9000000953674316px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.hero-link {
+    font-family: Inter, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+    border: 1px solid #FFFFFFBF;
+    border-radius: 100px;
+    padding: 20px 28px;
+    text-decoration: none;
+}
+
+.hero-btn {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+}
+
+.hero-btn img {
+    display: flex;
+}
+
+/* hero end */
+
+/* product start */
+
+.product {
+    padding-top: 123px;
+    padding-bottom: 154px;
+}
+
+.product-container {
+    max-width: 1404px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.product-banner {
+    width: 668px;
+    height: 717px;
+    display: flex;
+}
+
+.product-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 75px;
+    text-align: left;
+}
+
+.product-text {
+    color: #7A7A7A;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 39px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+
+/* product end */
+
+/* about start */
+
+.about {
+    background-image: url(../img/about/about-bacround_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 154px;
+    padding-bottom: 129px;
+}
+
+.about-container {
+    max-width: 1404px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-text {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 103px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-align: left;
+}
+
+.about-title {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-size: 48px;
+    width: 548px;
+    margin-bottom: 34px;
+    font-weight: 600;
+    line-height: 55.2px;
+    letter-spacing: -1.440000057220459px;
+    text-align: left;
+}
+
+.about-link {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-align: left;
+    border-left: 2px solid #FFFFFF;
+    display: flex;
+    padding-left: 20px;
+    margin-left: -13px;
+    margin-bottom: 127px;
+    text-decoration: none;
+}
+
+.about-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-radius: 100px;
+}
+
+/* about end */
+
+
+/* california start */
+.california {
+    padding-bottom: 122px;
+}
+
+.california-container {
+    max-width: 1404px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.active1 {
+    background-image: url(../img/california/california_img3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.active {
+    background-image: url(../img/california/california_img2.png);
+}
+
+.active2 {
+    background-image: url(../img/california/california_img.png);
+}
+
+.california-text {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+/* swiper start */
+.swiper {
+    width: 90%;
+    padding: 0px 0px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 442px;
+    height: 440px;
+}
+
+.california-card {
+    width: 400px;
+    height: 400px;
+}
+
+.california-card h2 {
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    padding-top: 36px;
+    margin-bottom: 12px;
+}
+
+.california-card h3 {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.7200000286102295px;
+    text-align: center;
+    color: white;
+    margin-bottom: 260px;
+}
+
+.california-card p {
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+}
+
+.california-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swiper-button-next1,
+.swiper-button-prev1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.swiper-pagination1{
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-button-next1 svg,
+.swiper-button-prev1 svg {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet {
+    background: black;
+}
+
+/* swiper end */
+
+/* california end */
