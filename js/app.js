@@ -34,3 +34,5 @@ button.addEventListener('click', (e) => {
         behavior: 'smooth'
     });
 });
+
+AOS.init();

@@ -249,7 +249,67 @@
     transition: all .3s;
 }
 
-.active1:hover{
+.active1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.active1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: skewX(-45deg);
+    transition: left 0.5s ease;
+}
+
+.active1:hover::before {
+    left: 100%;
+}
+
+.active {
+    position: relative;
+    overflow: hidden;
+}
+
+.active::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: skewX(-45deg);
+    transition: left 0.5s ease;
+}
+
+.active:hover::before {
+    left: 100%;
+}
+
+.active2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.active2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: skewX(-45deg);
+    transition: left 0.5s ease;
+}
+
+.active2:hover::before {
+    left: 100%;
 }
 
 .active {
